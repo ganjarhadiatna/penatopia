@@ -1,0 +1,43 @@
+.frame-sign {
+	position: relative;
+	width: 500px;
+	margin: auto;
+	background-color: #fff;
+	border-radius: 5px;
+	overflow: hidden;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	box-shadow: 0 0 0 1px rgba(0,0,0,0.1);
+}
+.frame-sign .top {
+	padding: 20px 0;
+	text-align: center;
+}
+.frame-sign .top img {
+	width: 90%;
+}
+.frame-sign .mid .block {
+	margin: auto;
+	width: calc(100% - 30px);
+	padding: 10px 15px;
+}
+.frame-sign .mid .block h2 {
+	text-align: center;
+	color: rgba(0,0,0,0.84);
+}
+.frame-sign .mid .block p {
+	font-size: 14px;
+	color: rgba(0,0,0,0.54);
+}
+.frame-sign .mid .block .btn {
+	width: 100%;
+	margin-bottom: 15px;
+}
+.frame-sign .mid .block a {
+	text-decoration: none;
+}
+@media only screen and (max-width: 768px) {
+	.frame-sign {
+		width: 95%;
+	}
+}

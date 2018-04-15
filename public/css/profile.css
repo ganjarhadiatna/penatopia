@@ -1,0 +1,321 @@
+.frame-profile {
+	position: relative;
+	width: 100%;
+	height: 350px;
+	margin-bottom: 20px;
+	background-color: #fff;
+	overflow: hidden;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	box-shadow: 0 0 0 1px rgba(0,0,0,0.1);
+}
+.frame-profile .cover {
+	position: relative;
+	height: 280px;
+	background-size: 800px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.frame-profile .cover .place-cover {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.1);
+}
+.frame-profile .profile {
+	position: absolute;
+	bottom: 20px;
+	width: calc(100% - 40px);
+	padding: 0 20px;
+	height: 110px;
+	margin: auto;
+
+	display: grid;
+	grid-template-columns: 135px 1fr 100px;
+
+	display: -ms-grid;
+	-ms-grid-columns: 135px 1fr 100px;
+}
+.frame-profile .profile .side-pp {
+	grid-column: 1;
+	-ms-grid-column: 1;
+}
+.frame-profile .profile .main-pp {
+	grid-column: 2;
+	-ms-grid-column: 2;
+}
+.frame-profile .profile .tool-pp {
+	position: relative;
+	grid-column: 3;
+}
+.frame-profile .profile .side-pp .foto {
+	position: absolute;
+	bottom: 0;
+	width: 120px;
+	height: 120px;
+}
+.frame-profile .profile .tool-pp .other {
+	position: absolute;
+	bottom: 8px;
+}
+.frame-profile .profile .tool-pp .other .btn {
+	width: 100px;
+}
+.frame-profile .profile .info {
+	position: relative;
+	width: 100%;
+	height: 60px;
+	font-size: 20px;
+	color: #fff;
+}
+.frame-profile .profile .info h1 {
+	text-shadow: 0 0 5px rgba(0,0,0,0.84);
+}
+.user-info {
+	width: 100%;
+	background-color: #fff;
+	color: rgba(0,0,0,0.54);
+	line-height: 1.5;
+	margin: 7.5px 0;
+	border-radius: 5px;
+	box-shadow: 0 0 0 1px rgba(0,0,0,0.1);
+	text-align: center;
+	display: inline-block;
+}
+.user-info .head {
+	padding: 10px 0;
+	border-bottom: 1px #ededed solid;
+}
+.user-info .other {
+	padding: 10px 0;
+}
+.user-info .name {
+	font-size: 18px;
+}
+.user-info .visited {
+	font-size: 12px;
+}
+.user-info h2 {
+	color: rgba(0,0,0,0.54);
+}
+.user-info p {
+	font-size: 14px;
+}
+.user-info a {
+	color: #38807f;
+	font-weight: 900;
+}
+
+.frame-edit .create-head {
+	border-bottom: 1px #ededed solid;
+}
+.frame-edit .edit-body {
+	padding: 0px 2.5% 30px 2.5%;
+	background-color: #fff;
+}
+.frame-edit .edit-body .edit-block p {
+	font-weight: 900;
+	padding: 15px 0;
+	color: rgba(0,0,0,0.84);
+	border-bottom: 1px #ededed solid;
+}
+.frame-edit .edit-body .edit-block ul li {
+	list-style: none;
+	width: 100%;
+	padding: 15px 0;
+	border-bottom: 1px #ededed solid;
+	font-size: 14px;
+	cursor: pointer;
+	color: rgba(0,0,0,0.54);
+
+	display: grid;
+	grid-template-columns: 1fr 50px;
+
+	display: -ms-grid;
+	-ms-grid-columns: 1fr 50px;
+}
+.frame-edit .edit-body .edit-block ul li:hover {
+	color: rgba(0,0,0,0.84);
+}
+.frame-edit .edit-body .edit-block ul li .ed-1 {
+	grid-column: 1;
+	-ms-grid-column: 1;
+}
+.frame-edit .edit-body .edit-block ul li .ed-2 {
+	grid-column: 2;
+	-ms-grid-column: 2;
+	text-align: center;
+	float: right;
+}
+.frame-edit .edit-body .edit-block .place-edit {
+	padding-top: 25px;
+	color: rgba(0,0,0,0.54);
+
+	display: grid;
+	grid-template-columns: 50px 1fr;
+
+	display: -ms-grid;
+	-ms-grid-columns: 50px 1fr;
+}
+.frame-edit .edit-body .edit-block .place-edit .pe-1 {
+	grid-column: 1;
+	-ms-grid-column: 1;
+	line-height: 40px;
+	text-align: center;
+}
+.frame-edit .edit-body .edit-block .place-edit .pe-2 {
+	grid-column: 2;
+	-ms-grid-column: 2;
+}
+.frame-edit .edit-body .edit-block .place-edit .pe-btn {
+	text-align: right;
+}
+.frame-edit .edit-body .edit-block .place-edit .pe-btn .btn {
+	width: 100%;
+	margin-bottom: 15px;
+}
+.frame-edit .edit-body .edit-block .change {
+	position: relative;
+	width: 100%;
+	padding-top: 25px;
+}
+.frame-edit .edit-body .edit-block .foto {
+	position: relative;
+	width: 200px;
+	height: 200px;
+	margin: auto;
+	border-radius: 100%;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin-bottom: 25px;
+}
+.frame-edit .edit-body .edit-block .change #change-picture {
+	display: none;
+}
+.frame-edit .edit-body .edit-block .change #btn-save-foto {
+	width: 70px;
+	margin: auto;
+	text-align: center;
+	line-height: 40px;
+}
+
+
+.place-follow h1 {
+	color: rgba(0,0,0,0.54);
+	margin: 30px 0 20px 0;
+	text-align: center;
+}
+.place-follow .content-follow {
+	display: flex;
+	flex-wrap: wrap;
+}
+.frame-follow {
+	position: relative;
+	padding: 15px;
+	margin: 10px;
+	width: 170px;
+	border-radius: 10px;
+}
+.frame-follow .top {
+	width: 100%;
+}
+.frame-follow .top .foto {
+	position: relative;
+	margin: 0 auto;
+	width: 80%;
+	padding-bottom: 80%;
+	border-radius: 100%;
+	background-size: 100%;
+}
+.frame-follow .mid {
+	position: relative;
+	width: 100%;
+	height: 25px;
+	line-height: 25px;
+	overflow: hidden;
+
+	font-size: 20px;
+	text-align: center;
+	font-weight: 600;
+
+	color: rgba(0,0,0,0.54);
+	margin: 10px 0;
+}
+.frame-follow .bot .btn {
+	width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+	.user-info {
+		margin: 0 0;
+		border-radius: 0;
+	}
+	.frame-profile {
+		height: 250px;
+		border-bottom-left-radius: 0;
+		border-bottom-right-radius: 0;
+	}
+	.frame-profile .cover {
+		height: 250px;
+	}
+	.frame-profile .profile {
+		width: calc(100% - 20px);
+		padding: 0 10px;
+		height: 80px;
+
+		display: grid;
+		grid-template-columns: 90px 1fr;
+
+		-ms-display: grid;
+		-ms-grid-columns: 90px 1fr;
+	}
+	.frame-profile .profile .side-pp {
+		grid-column: 1;
+		-ms-grid-column: 1;
+	}
+	.frame-profile .profile .main-pp {
+		grid-column: 2;
+		-ms-grid-column: 2;
+	}
+	.frame-profile .profile .tool-pp {
+		position: relative;
+		top: 0;
+		grid-column: 3;
+		-ms-grid-column: 3;
+	}
+	.frame-profile .profile .tool-pp .other {
+		position: relative;
+		top: 0;
+		right: 0;
+		line-height: 80px;
+	}
+	.frame-profile .profile .info .other .btn {
+		right: 0;
+	}
+	.frame-profile .profile .main-pp .menu-list {
+		display: none;
+	}
+	.frame-profile .profile .side-pp .foto {
+		width: 75px;
+		height: 75px;
+	}
+	.frame-profile .profile .info {
+		top: 50%;
+		transform: translate(0, -50%);
+		font-size: 14px;
+		height: auto;
+	}
+	.frame-edit .edit-body {
+		padding: 0 2.5%;
+	}
+	.place-follow {
+		width: 100%;
+		display: block;
+	}
+	.frame-follow {
+		width: calc(50% - 50px);
+	}
+}
